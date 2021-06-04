@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-09-2020, 19:26:59
+    Author     : alvaro
+*/
+#logo{
+    text-align: center;
+}
+#imagen{
+    width: 10%;
+    border-radius: 10px 10px 10px 10px
+}
+body{
+    background: cadetblue;
+    width: 1200px;
+    margin: 0px auto;
+}
+header{
+    background: azure;
+    padding: 0px 5px 5px 5px;   
+}
+nav{
+    background: chartreuse;
+}
+section{
+    margin-top: 0.5%;
+    background: blue;
+    min-height: 50px;
+    width: 80%;
+    text-align: justify;
+    float:left;
+    position: relative;
+}
+article{
+    background: red;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+aside{
+    margin-top: 0.5%;
+    background: aqua;
+    float: right;
+    width: 19%;
+    min-height: 50px;
+    position: relative;
+}
+footer{
+    background: brown;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    height: 40px;
+    color: white;
+
+}
+img{
+
+    width: 10%;
+    border-radius: 10px 10px 10px 10px
+}
+header,section,article,aside,footer{
+    border: 1px solid blueviolet;
+    display: block;
+
+}

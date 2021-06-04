@@ -1,0 +1,6 @@
+
+function iniciar() {
+    var x;
+}
+
+
